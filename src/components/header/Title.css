@@ -1,0 +1,13 @@
+.titleStyle {
+  margin: auto;
+  width: 50%;
+  padding-top: 10px;
+  width: fit-content;
+}
+.titleStyle h2 {
+  color: #22223b;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}

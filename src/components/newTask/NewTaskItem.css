@@ -1,0 +1,39 @@
+.newTask {
+  background-color: #c9ada7;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 51rem;
+  max-width: 100%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.newTask button {
+  font-family: "Protest Riot", sans-serif;
+  font-size: medium;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #22223b;
+  background-color: #22223b;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+}
+
+.newTask button:hover,
+.newTask button:active {
+  background-color: #4a4e69;
+  border-color: #4a4e69;
+}
+
+.newTask button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.newTask button.alternative:hover,
+.newTask button.alternative:active {
+  background-color: #ddb3f8;
+}
