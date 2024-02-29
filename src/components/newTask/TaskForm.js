@@ -100,7 +100,7 @@ export default function TaskForm(props) {
           <label>Priority</label>
           <select value={enteredPriority} onChange={priorityChangeHandler}>
             <option value="High">High</option>
-            <option value="Medium">Medium Work</option>
+            <option value="Medium">Medium</option>
             <option value="Low">Low</option>
           </select>
         </div>
