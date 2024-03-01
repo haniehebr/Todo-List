@@ -5,7 +5,7 @@ import TaskTitle from "../header/TaskTitle";
 
 export default function Tasks(props) {
   if (props.items.length === 0) {
-    return <h2 className="task-list__fallback">There is no tasks!</h2>;
+    return <h2 className="task-list__fallback">There is no task!</h2>;
   }
   return (
     <div className="tasks">
